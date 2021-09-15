@@ -7,8 +7,22 @@
     <title>Vista de Resumen</title>
 </head>
 <body>
-    <h1> Vista Rapida de Inventario</h1>
+    <h2> Vista Rapida de Inventario</h2>
 
+    <div>
+      <form >
+        <label for="fecha">Fecha:</label>
+        <select id="meses" name="meses">
+          <option value="0">Mes Actual</option>
+          <option value="1">Mes Actual -1</option>
+          <option value="2">Mes Actual -2</option>
+          <option value="3">Mes Actual -3</option>
+        </select>
+        
+      </form>
+    </div>
+
+    <div>
     <table border="1" align="center">
         <tr>
           <th>Codigo Producto</th>
@@ -53,12 +67,13 @@
             <td>Almacen No.4</td>
           </tr>
           <tr>
-            <td>006</td>
-            <td>Producto codigo 006</td>
+            <td>007</td>
+            <td>Producto codigo 007</td>
             <td>34</td>
             <td>Almacen No.4</td>
           </tr>
       </table> 
+    </div>
     
 </body>
 </html>
