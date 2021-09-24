@@ -6,8 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crear Usuario</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" href="imgs/xxxxxTechnologyLogotipos.png">
+
 </head>
 <body>
-    
+    <img src="imgs/xxxxxTechnologyLogotipos.png" alt="" width="100" height="100">
+
+        <header>
+
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><img src="imgs/iconomenu.png" alt="" width=40px height="40px"></label>
+        
+            <nav class="menu">
+              <ul>
+                <li><a href="vistaResumen.html"><b>Inicio</b></a></li>
+                <li><a href="agregarProducto.html"><b>Agregar Producto</b></a></li>
+                <li><a href="busquedaProducto.html"><b>Buscar Producto</b></a></li>
+                <li><a href="disminuirProducto.html"><b>Disminuir Inventario</b></a></li>
+                <li><a href="transferirProducto.html"><b>Transferir Producto</b></a></li>
+                <li><a href="crear_usuario.html"><b>Crear nuevo usuario</b></a></li>
+              </ul>
+            </nav>
+          </header>
+
+
+    <section>
+
+        <br><br>
+        <form &nbsp;&nbsp> &nbsp; &nbsp;
+            <label for="fname"><b>Nombre completo:</b></label><br>&nbsp; &nbsp;
+            <input type="text" id="fname" name="fname"><br>&nbsp; &nbsp;
+            <label for="lname"><b>Usuario:</b></label><br>&nbsp; &nbsp;
+            <input type="text" id="lname" name="lname"><br><br>&nbsp; &nbsp;
+            <label for="pass"><b>Contraseña:</b></label><br>&nbsp; &nbsp;
+            <input type="text" id="pass" name="pass"><br><br>&nbsp; &nbsp;
+
+
+
+            <b>Seleccione Genero</b><br>
+
+
+              &nbsp; &nbsp;<input type="radio" id="Masculino" name="fav_language" value="Masculino">
+              <label for="Masculino">Masculino</label><br>
+              &nbsp; &nbsp;<input type="radio" id="Femenino" name="fav_language" value="Femenino">
+              <label for="Femenino">Femenino</label><br>
+            <br><br>
+
+            &nbsp; &nbsp;<b>Seleccione el perfil de usuario</b><br>
+
+            <br>&nbsp; &nbsp;<select id="perfil" name="perfil">
+                <option value="Gerente">Gerente</option>
+                <option value="Supervisor">Supervisor</option>
+                <option value="Cajero">Cajero</option>
+
+            </select>
+            <br> <br> <br>
+              >
+
+            <input type="submit" value="Crear">&nbsp; &nbsp;
+
+        </form>
+    </section>
+
+
 </body>
 </html>
